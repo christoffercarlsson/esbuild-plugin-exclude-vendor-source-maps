@@ -1,0 +1,35 @@
+{
+  "name": "esbuild-plugin-exclude-vendor-source-maps",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Christoffer Carlsson <cc@christofferc.com>",
+  "bugs": {
+    "url": "https://github.com/christoffercarlsson/esbuild-plugin-exclude-vendor-source-maps/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "prettier": "^2.8.3"
+  },
+  "engines": {
+    "node": ">=16.13.0"
+  },
+  "exports": "./src/index.js",
+  "files": [
+    "./src/**/*.js"
+  ],
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christoffercarlsson/esbuild-plugin-exclude-vendor-source-maps.git"
+  },
+  "scripts": {
+    "format": "prettier --loglevel silent --write .",
+    "lint": "eslint ."
+  },
+  "type": "module"
+}
