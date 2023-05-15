@@ -7,7 +7,7 @@
     "url": "https://github.com/christoffercarlsson/esbuild-plugin-exclude-vendor-source-maps/issues"
   },
   "devDependencies": {
-    "@types/node": "^18.11.18",
+    "@types/node": "^20.1.4",
     "eslint": "^8.32.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-config-standard": "^17.0.0",
